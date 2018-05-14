@@ -1,4 +1,4 @@
-CSI Resume Project Documentation for Building the Application
+ --CSI Resume Project Documentation for Building the Application--
 
 Building Steps:
 Download Google Drive and sign in using the credentials above. 
@@ -35,7 +35,7 @@ Copy the Google Drive path to filepathfinder.py
 
 15- py -2.7 -m dashboardimplementation.py
 
-Code Files Documentation
+ --Code Files Documentation--
 	
 Dashboardimplementation.py:
 Has 3 classes:
