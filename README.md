@@ -29,45 +29,45 @@ ResumeApp class: Uses Tkinter library and calls the default library functions to
 StartPage class: Handles the user authentication for the log in.
 PageOne class: Display of the data that is loaded from the database, calls gui implementation method, uses refresh elements function, calls worker function to refresh all the data including all operations.
 
-	Workerfunction.py:
+ Workerfunction.py:
 Worker class: Retrieves good and bad words from the database, calls resume selection method and classifies the resumes.
 
 
-	ResumeSelection.py:
+ ResumeSelection.py:
 Searches through the file and returns the decision of the decline or acceptance.
 
-	Resumes.py:
+ Resumes.py:
 Has Attributes as grade, name, acceptance and reason
 
-	ReadFile.py:
+ ReadFile.py:
 Retrieves the resume id and the text from the Resumes table in the database.
 
-	Main.py:
+ Main.py:
 Uploads the resume images to the database.
 
-	Images.py:
+ Images.py:
 Image object class
 
-	GUIImplementation.py:
+ GUIImplementation.py:
 Listboxes are created and data is inserted to the listboxes.
 
-	Grading.py:
+ Grading.py:
 Determines prespecified grading types using increment, decrement or int.
 
-	FileReader.py:
+ FileReader.py:
 Reads file and stores elements into an array
 
-	FilePathFinder.py:
+ FilePathFinder.py:
 Finds the files to be processed in the given folder. 
 
-	DatabaseConnection.py:
+ DatabaseConnection.py:
 All the database functions considering storing, retrieving and manipulating the data.
 
-	CountriesTry.py:
+ CountriesTry.py:
 Reads the countries.json file.
 
-	Index.py:
+ Index.py:
 Inserts the text file of the resumes to the database and updates the previous version if a newer version is inserted.
 
-	Asd.py:
+ Asd.py:
 Uses Google-cloud to transform the image into text and extracts resume ID.
